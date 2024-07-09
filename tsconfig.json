@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": true,
+
+    /* Completeness */
+    "skipLibCheck": true,
+
+    /* Additional Options */
+    "resolveJsonModule": true, // Permite importar archivos JSON como módulos
+    "declaration": true, // Genera archivos de declaración (.d.ts) para tus módulos
+    "sourceMap": true, // Genera archivos de mapa de origen (.map) para facilitar la depuración
+    "rootDir": "./src", // Especifica la carpeta raíz de tus archivos fuente TypeScript
+    "baseUrl": "./", // Define la base URL para las rutas de importación relativas
+    "paths": {
+      "*": ["./node_modules/*", "./src/types/*"] // Configura rutas de importación personalizadas
+    }
+  },
+  "include": ["src/**/*.ts"], // Especifica qué archivos TypeScript incluir en la compilación
+  "exclude": ["node_modules"] // Excluye la carpeta 'node_modules' de la compilación
+}
