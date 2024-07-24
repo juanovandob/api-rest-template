@@ -40,6 +40,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## License
 
-This project is licensed under the ISC License.
+This project is licensed under the MIT License.
 
 Feel free to customize and expand upon this template to suit your project’s specific needs. Good luck with your REST API template! 🚀
