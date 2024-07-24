@@ -1,6 +1,6 @@
 # REST API Template
 
-This is a starter template for creating RESTful APIs using TypeScript, Node.js, and Express.
+This is a starter template for creating RESTful APIs using TypeScript, Node.js, and Express. The template will be ready to use another Db instead MongoDB
 
 ## Features
 
