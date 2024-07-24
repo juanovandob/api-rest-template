@@ -1,6 +1,6 @@
 # REST API Template
 
-This is a starter template for creating RESTful APIs using TypeScript, Node.js, and Express.
+This is a starter template for creating RESTful APIs using TypeScript, Node.js, and Express. 
 
 ## Features
 
@@ -10,6 +10,7 @@ This is a starter template for creating RESTful APIs using TypeScript, Node.js, 
 - CORS middleware for handling cross-origin requests
 - Multer for handling file uploads
 - Dotenv for managing environment variables
+- ts-node-dev for development
 
 ## Getting Started
 
